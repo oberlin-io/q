@@ -1,0 +1,115 @@
+- '@id': quran
+  edges:
+  - '@id': is
+    targets:
+    - '@id': the_book
+      refs:
+      - 002.002.002
+      tag: What Quran is
+- '@id': the_book
+  edges:
+  - '@id': is
+    targets:
+    - '@id': guidance
+      refs:
+      - 002.002.007
+      tag: What Quran is
+  - '@id': has_not
+    targets:
+    - '@id': doubt
+      refs:
+      - 002.002.004
+      tag: What Quran is
+- '@id': guidance
+  edges:
+  - '@id': from
+    targets:
+    - '@id': lord
+      refs:
+      - 002.005.005
+      tag: What Quran is
+  - '@id': is_for
+    targets:
+    - '@id': guarded
+      refs:
+      - 002.002.009
+      tag: Who benefits from Quran
+- '@id': narrator
+  edges:
+  - '@id': narrate
+    targets:
+    - '@id': quran
+      refs:
+      - 002.003.011
+      tag: What Quran is
+  - '@id': provide
+    targets:
+    - '@id': provision
+      refs:
+      - 002.003.010
+- '@id': guarded
+  edges:
+  - '@id': is
+    targets:
+    - '@id': successful
+      refs:
+      - 002.005.009
+      tag: Who benefits from Quran
+  - '@id': has
+    targets:
+    - '@id': lord
+      refs:
+      - 002.005.005
+      tag: Who benefits from Quran
+  - '@id': 'on'
+    targets:
+    - '@id': guidance
+      refs:
+      - 002.005.003
+      tag: Who benefits from Quran
+  - '@id': believe
+    targets:
+    - '@id': unseen
+      refs:
+      - 002.003.004
+      tag: Who benefits from Quran
+    - '@id': ?what_brought_down
+      refs:
+      - 002.004.005
+      tag: Who benefits from Quran
+  - '@id': certain_about
+    targets: 
+    - '@id': hereafter
+      refs:
+      - 002.004.015
+      tag: Who benefits from Quran
+  - '@id': establish
+    targets:
+    - '@id': prayer
+      refs:
+      - 002.003.007
+      tag: Who benefits from Quran
+  - '@id': spend
+    targets:
+    - '@id': provision
+      refs:
+      - 002.003.017
+      tag: Who benefits from Quran
+- '@id': ?what_bring_down
+  edges:
+  - '@id': bring_down
+    targets:
+    - '@id': ?what_brought_down
+      refs:
+      - 002.004.005
+- '@id': ?what_brought_down
+  edges:
+  - '@id': to
+    targets:
+    - '@id': you
+      refs:
+      - 002.004.007
+    - '@id': those_before_you
+      refs:
+      - 002.004.012
+

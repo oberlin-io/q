@@ -1,0 +1,43 @@
+{
+"locations": [
+{
+	"loc": "001.001.002",
+	"token": ["A", "s", "m"],
+	"token_name": "ism",
+	"apparent_meaning": [
+		{
+			"meaning": "name",
+			"references": [
+				"Hava 2006"
+			]
+		}
+	],
+	"root": ["s", "m", "w"]
+}
+],
+"roots": [
+{
+	"root": ["s", "m", "w"],
+	"semantic_graph": {
+		"graph": [
+			["mount", "hunt"],
+			["name", "noun"],
+			["raise", "glory"],
+			["raise", "mount"],
+			["raise", "name"],
+			["raise", "sky"],
+			["ROOT", "raise"]
+		],
+		"references": [
+			"Hava 2006"
+		]
+	},
+	"q_semantic_graph": [
+		["name", "specify"]
+	],
+	"q_colocations": [
+		{"meaning": "name", "colo_root": ["_d", "k", "r"]},
+		{"meaning": "specify", "colo_root": ["A", "j", "l"]}
+	]
+}
+]}

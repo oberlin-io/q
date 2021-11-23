@@ -1,0 +1,19 @@
+source,edge,target,ref,tag
+quran,is,the_book,002.002.002,What Quran is
+the_book,is,guidance,002.002.007,What Quran is
+the_book,has_not,doubt,002.002.004,What Quran is
+guidance,from,lord,002.005.005,What Quran is
+guidance,is_for,guarded,002.002.009,Who benefits from Quran
+narrator,narrate,quran,002.003.011,What Quran is
+narrator,provide,provision,002.003.010,
+guarded,is,successful,002.005.009,Who benefits from Quran
+guarded,has,lord,002.005.005,Who benefits from Quran
+guarded,on,guidance,002.005.003,Who benefits from Quran
+guarded,believe,unseen,002.003.004,Who benefits from Quran
+guarded,believe,?what_brought_down,002.004.005,Who benefits from Quran
+guarded,certain_about,hereafter,002.004.015,Who benefits from Quran
+guarded,establish,prayer,002.003.007,Who benefits from Quran
+guarded,spend,provision,002.003.017,Who benefits from Quran
+?what_bring_down,bring_down,?what_brought_down,002.004.005,
+?what_brought_down,to,you,002.004.007,
+?what_brought_down,to,those_before_you,002.004.012,

@@ -1,0 +1,52 @@
+[
+	{
+		"name": "quran",
+		"edges":[
+			{
+				"name": "is",
+				"targets": [
+					{"name": "the_book", "ref": ["002.002.002"]}
+				]
+			}
+		]
+	},
+	{
+		"name": "the_book",
+		"edges": [
+			{
+				"name": "is",
+				"targets": [
+					{"name": "guidance", "ref": ["002.002.007"]}
+				]
+			},
+			{
+				"name": "has_not",
+				"targets": [
+					{"name": "doubt", "ref": ["002.002.004"]}
+				]
+			}
+		]
+	},
+	{
+		"name": "guidance",
+		"edges": [
+			{
+				"name": "is_for",
+				"targets": [
+					{"name": "guarded", "ref": ["002.002.009"]}
+				]
+			}
+		]
+	},
+	{
+		"name": "quran",
+	        "edges": [
+			{
+				"name": "has",
+				"targets": [
+					{"name": "narrator", "ref": ["002.003.011"]}
+				]
+			}
+		]
+	}
+]

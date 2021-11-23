@@ -1,0 +1,6 @@
+source,edge,target,references
+quran,is,the_book,002.002.002
+the_book,is,guidance,002.002.007
+the_book,has_not,doubt,002.002.004
+guidance,is_for,guarded,002.002.009
+quran,has,narrator,002.003.011

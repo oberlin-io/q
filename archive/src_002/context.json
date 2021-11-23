@@ -1,0 +1,61 @@
+{
+	"the_book": {
+		"@type": "object",
+		"ar": ["AlktAb"]
+	},
+	"quran": {
+		"@type": "object",
+		"ar": ["qrAn"]
+	},
+	"guidance": {
+		"@type": "abstraction",
+		"ar": ["hdy"],
+	"is": {
+		"@type": "taxonomic",
+		"ar": []
+	},
+	"has_not": {
+		"@type": "meronomic",
+		"ar": []
+	},
+	"doubt": {
+		"@type": "abstraction",
+		"ar": ["ryb"]
+	},
+	"believe": {
+		"@type": "action",
+		"ar": ["yu'mnun"]
+	},
+	"establish": {
+		"@type": "action",
+		"ar": ["yqymun"]
+	},
+	"unseen": {
+		"@type": "abstraction",
+		"ar": [".gyb"]
+	},
+	"prayer": {
+		"@type": "object",
+		"ar": [".slAT"]
+	},
+	"provision": {
+		"@type": "object",
+		"ar": []
+	},
+	"spend": {
+		"@type": "action",
+		"ar": ["ynfqun"]
+	},
+	"narrator": {
+		"@type": "abstract?",
+		"ar": []
+	},
+	"has": {
+		"@type": "meronomic",
+		"ar": []
+	},
+	"provide": {
+		"@type": "action",
+		"ar": ["rzqnA"]
+	}
+}

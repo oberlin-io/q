@@ -1,0 +1,29 @@
+	{
+		"narrator": [
+			{
+				"provide": [
+					{"name": "provision", "ref": ["002.003.010"]}
+				]
+			}
+		]
+	},
+	{
+		"guarded": [
+			{
+				"believe": [
+					{"name": "unseen", "ref": ["002.003.004"]}
+				]
+			},
+			{
+				"establish": [
+					{"name": "prayer", "ref": ["002.003.007"]}
+				]
+			},
+			{
+				"spend": [
+					{"name": "provision", "ref": ["002.002.017"]}
+				]
+			}
+		]
+	}
+]
